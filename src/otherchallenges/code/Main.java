@@ -1,8 +1,6 @@
 package otherchallenges.code;
 
-import otherchallenges.code.classes.Student;
-
-import java.util.Arrays;
+import otherchallenges.code.classes.Product;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,7 +47,7 @@ public class Main {
 //
 //        //calculando a area do retangulo;
 //
-//        System.out.println(r1.calculateArea());
+//        System.out.println(r1.c3alculateArea());
 //
 //        //calculando o perimetro do retangulo;
 //
@@ -57,13 +55,39 @@ public class Main {
 
         //lidando com estudates
 
-        Student s1 = new Student(
-                "Mateus",
-                3452,
-                5.6, 3.3, 4.4, 5.5);
-
-        s1.gradeValidation();
-
-        System.out.println(Arrays.toString(s1.grades));
+//        Student s1 = new Student(
+//                "Mateus",
+//                3452,
+//                5.6, 3.3, 4.4, 5.5);
+//
+//        s1.gradeValidation();
+    	
+    	//lidando com funcionarios
+    	
+//    	Employee emp1 = new Employee();
+//    	
+//    	emp1.setName("Saraiva");
+//    	emp1.setWage(5255);
+//    	emp1.setName("Programador");
+//    	
+//    	System.out.println("Your brute wage is: " + emp1.getWage());
+//    	
+//    	emp1.setLiquidWage();
+    	
+    	//lidando com produtos
+    	
+//		Product p1 = new Product();
+//		
+//		p1.setName("Pen");
+//		p1.setAmount(3);
+//		p1.setPrice(3.50);
+//	    	
+//	    System.out.println(p1.setTotalValueAmount());
+//	    
+//	    System.out.println(p1.isAvailable());
+    	
+    	//lidando com triangulos;
+    	
+    	
     }
 }
